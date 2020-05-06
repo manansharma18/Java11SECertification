@@ -7,7 +7,7 @@ public class PrimitiveTypeDefaultValues {
     private long l;
     private float f;
     private double d;
-
+    public static long lo;
     public static void main(String[] args) {
         var primitiveTypeValues = new PrimitiveTypeDefaultValues();
 
@@ -18,6 +18,7 @@ public class PrimitiveTypeDefaultValues {
         System.out.println(primitiveTypeValues.f);
         System.out.println(primitiveTypeValues.d);
         System.out.println(primitiveTypeValues.c);
+        System.out.println(lo);
         System.out.println("");
         primitiveTypeValues.f =  2.0f;
         primitiveTypeValues.d = 2;
@@ -27,5 +28,9 @@ public class PrimitiveTypeDefaultValues {
         System.out.println(primitiveTypeValues.f);
         System.out.println(primitiveTypeValues.d);
 
+        int a;
+        //System.out.println(a);
+        int[] arr = new int[20];
+        //var[] arrays = new int [3];
     }
 }
