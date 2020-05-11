@@ -1,5 +1,7 @@
+package hackerrank;
+
 import java.util.*;
-import java.io.*;
+
 class Node{
     Node left,right;
     int data;
