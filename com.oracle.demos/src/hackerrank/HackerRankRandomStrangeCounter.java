@@ -1,3 +1,5 @@
+package hackerrank;
+
 public class HackerRankRandomStrangeCounter {
 
 
