@@ -24,8 +24,8 @@ public class MethodLambda {
         print(employee -> employees.get(0).getAge(),25);
     }
 
-    public static void print(Consumer<Integer> name, int x){
+    public static void print(Consumer<Integer> age, int x){
         //System.out.println(name);
-        name.accept(x);
+        age.accept(x);
     }
 }
