@@ -20,7 +20,7 @@ public class MethodLambda {
         employees.add(cena);
         employees.add(doe);
         employees.add(cannon);
-
+        employees.removeIf(employee -> employee.getAge()>50);
         print(employee -> employees.get(0).getAge(),25);
     }
 
