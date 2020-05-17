@@ -1,7 +1,7 @@
 public class InheritanceDemo1 extends Parent {
 
     public InheritanceDemo1() {
-        super(4);
+        this(4);
     }
 
     public InheritanceDemo1(int number) {
@@ -11,10 +11,16 @@ public class InheritanceDemo1 extends Parent {
     public static void main(String[] args) {
 
     }
+    public void run(){
+        System.out.println("A");
+    }
 }
 
 class Parent{
     public Parent(int number){
         System.out.println("E");
+    }
+
+    public Parent() {
     }
 }
