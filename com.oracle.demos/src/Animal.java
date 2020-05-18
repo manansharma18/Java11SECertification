@@ -1,4 +1,5 @@
 public class Animal {
+    protected int x = 5;
     public static void testClassMethod() {
         System.out.println("The static method in Animal");
     }
