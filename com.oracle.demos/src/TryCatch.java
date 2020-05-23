@@ -12,5 +12,8 @@ public class TryCatch {
         catch (IOException e) {
             e.printStackTrace();
         }
+        finally {
+            System.out.println("Finally run");
+        }
     }
 }
