@@ -4,11 +4,12 @@ public class CheckedUncheckedException {
         //m2();
         try{
             m1();
+            //throw new Checked("Checked exception");
             System.out.println("Before");
             m2();
             System.out.println("After");
         }
-        catch (Unchecked | Checked u){
+        catch (Checked u){
             System.out.println(u.getMessage());
         }
 
