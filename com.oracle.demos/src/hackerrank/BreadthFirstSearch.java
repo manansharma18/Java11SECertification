@@ -19,7 +19,7 @@ public class BreadthFirstSearch {
                 return;
             q.add(root);
             while (!q.isEmpty()) {
-                Node n = (Node) q.remove();
+                Node n = q.remove();
                 System.out.print(n.data + " ");
                 if (n.left != null)
                     q.add(n.left);
@@ -45,7 +45,7 @@ public class BreadthFirstSearch {
                 return root;
             }
         }
-        public static void main(String args[]){
+        public static void main(String[] args){
             Scanner sc=new Scanner(System.in);
             int T=sc.nextInt();
             Node root=null;

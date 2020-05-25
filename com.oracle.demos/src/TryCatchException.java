@@ -22,7 +22,7 @@ public class TryCatchException {
         this.text = text;
     }
 
-    void fall(int x) throws Exception,IOException,FileNotFoundException,NullPointerException {
+    void fall(int x) throws Exception {
         throw new Exception();
     }
 

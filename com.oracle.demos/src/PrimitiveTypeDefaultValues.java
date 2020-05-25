@@ -19,7 +19,7 @@ public class PrimitiveTypeDefaultValues {
         System.out.println(primitiveTypeValues.d);
         System.out.println(primitiveTypeValues.c);
         System.out.println(lo);
-        System.out.println("");
+        System.out.println();
         primitiveTypeValues.f =  2.0f;
         primitiveTypeValues.d = 2;
         primitiveTypeValues.l = 4;

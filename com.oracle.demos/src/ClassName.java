@@ -3,7 +3,7 @@ class ClassNameAgain {
      * Which main method is executed depends on the class passed as main class in run configuration.
      * There are two class files generated in the name ClassNameAgain.class and ClassNames.class
      * */
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println("Hello class Again");
     }
 }
@@ -19,7 +19,7 @@ class ClassNames {
      * java ClassNames or java ClassNameAgain
      */
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         System.out.println("Hello class");
     }
 }

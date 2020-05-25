@@ -10,7 +10,7 @@ public class PrimeNumber {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner scanner = new Scanner (System.in);
         //Integer intArray = scanner.nextInt();
-        String tokens[] = scanner.nextLine().split(" ");
+        String[] tokens = scanner.nextLine().split(" ");
         List<String> listOfTokens =  Arrays.asList(tokens);
         scanner.close();
         List<Boolean> isPrimeList = new ArrayList<>();

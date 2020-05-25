@@ -1,5 +1,5 @@
 class Fish {
-    protected int size; private int age;
+    protected int size; private final int age;
     public Fish(int age) {
         this.age = age;
     }
@@ -7,7 +7,7 @@ class Fish {
     }
 }
 public class Shark extends Fish {
-    private int numberOfFins = 8;
+    private final int numberOfFins = 8;
     public Shark(int age) { super(age);
         this.size = 4; //No need to inherit the variables if you dont want them.
         }

@@ -80,8 +80,8 @@ public class JumpingClouds {
 
     private static final Scanner scanner = new Scanner(System.in);
 // remove buffered shit and replace with sample input : 0 0 1 0 0 1 0; 0 0 0 1 0 0
-    static int in1[] = {0, 0, 1, 0, 0, 1, 0 };
-    static int in2[] = {0, 0, 0, 1, 0, 0 };
+    static int[] in1 = {0, 0, 1, 0, 0, 1, 0 };
+    static int[] in2 = {0, 0, 0, 1, 0, 0 };
 
     public static void main(String[] args) throws IOException {
    /*     BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));

@@ -6,9 +6,9 @@ public class SwitchStatements {
         // Does not matter what the range of short is. If you add two short numbers. the result is int.
        //final short ll =(short)(l+s);
         final short ll =(int)6;
-        System.out.println(Short.class.isInstance(ll));
+        System.out.println(ll instanceof Short);
         final int lll =(short)6;
-        System.out.println(Integer.class.isInstance(lll));
+        System.out.println(lll instanceof Integer);
         switch(s){
             case l :
                 System.out.println("l");

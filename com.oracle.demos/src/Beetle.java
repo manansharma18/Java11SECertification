@@ -13,7 +13,7 @@ public class Beetle extends Insect {
 
     public static void main(String[] args) {
         Beetle beetle = new Beetle();
-        System.out.println(beetle.size);
+        System.out.println(size);
 
         HasExoskeleton hasExoskeleton = beetle;
         System.out.println(hasExoskeleton.size);

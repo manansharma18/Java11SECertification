@@ -16,7 +16,7 @@ static void checkConcatLiterPool(){
         String t = "he"+"ll"+"o world";
         String u = "hell";
         u = u+"o world";
-        var v = new String ("hello world").intern();
+        var v = "hello world".intern();
         //v = v+"o world".intern();
         System.out.println(s==t);
         System.out.println(s.equals(t));
