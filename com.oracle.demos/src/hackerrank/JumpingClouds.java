@@ -3,7 +3,6 @@ package hackerrank;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class JumpingClouds {

@@ -3,6 +3,8 @@ public class ConstructorClass {
         System.out.println("This is begining");
     }
 
+    private static long longValue;
+
     private String name;
     {
         name = "Manan";
@@ -10,8 +12,9 @@ public class ConstructorClass {
     }
     public static void main (String [] args){
         System.out.println("hi");
+        
         ConstructorClass constructorClass = new ConstructorClass();
-
+        System.out.println(longValue);
         System.out.println(constructorClass.name);
         System.out.println(constructorClass.getName());
 
@@ -24,7 +27,7 @@ public class ConstructorClass {
     public String getName(){
 
         {
-            name = "Manan";
+            name = "Sharma ji";
             System.out.println(name);
         }
         return name;

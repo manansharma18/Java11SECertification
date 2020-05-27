@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java11SECertification.iml" filepath="$PROJECT_DIR$/.idea/Java11SECertification.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.oracle.demos/com.oracle.demos.iml" filepath="$PROJECT_DIR$/com.oracle.demos/com.oracle.demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.oracle.demos/com.oracle.demos.module.iml" filepath="$PROJECT_DIR$/com.oracle.demos/com.oracle.demos.module.iml" />
     </modules>
   </component>
 </project>
