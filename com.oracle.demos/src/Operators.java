@@ -24,6 +24,13 @@ public class Operators {
         System.out.println(t);
         System.out.println(h);
 
+        int pig = (short)4;
+        pig = pig++;
+        long goat = (int)2;
+        goat -= 1.0;
+        System.out.print(pig + " - " + goat);
+
+
     }
 
 }
