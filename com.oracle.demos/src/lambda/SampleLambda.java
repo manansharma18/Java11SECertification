@@ -1,10 +1,7 @@
 package lambda;
 
 import java.util.*;
-import java.util.function.BiFunction;
-import java.util.function.IntPredicate;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 import static java.lang.Integer.compare;
 
@@ -22,6 +19,8 @@ public class SampleLambda {
         employees.add(cena);
         employees.add(doe);
         employees.add(cannon);
+        Consumer<Integer> consumer = (Integer x )-> employees.get(0).getAge();
+        System.out.println("Consumer Interface value is " +consumer.equals(employees.get(0).getAge()));
         Collections.sort(employees, (employee1, employee2) -> {
             return compare(employee1.getAge(), employee2.getAge());
         });
