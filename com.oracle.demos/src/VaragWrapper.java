@@ -8,8 +8,6 @@ public class VaragWrapper {
         System.out.println("long varag");
     }
 
-
-
     public static void main(String[] args) {
         v1(5);
     }
