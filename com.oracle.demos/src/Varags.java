@@ -10,6 +10,10 @@ public class Varags {
         System.out.println("long Primitive type");
     }
 
+    private static void m1(float x) {
+        System.out.println("long Primitive type");
+    }
+
 
     public static void main(String[] args) {
         m1(5);
