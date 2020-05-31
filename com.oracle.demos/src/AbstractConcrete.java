@@ -21,5 +21,7 @@ public class AbstractConcrete extends ExtendsConcreteAbstract{
         System.out.println(concreteAbstract.concrete());
         System.out.println(extendsConcreteAbstract.concrete());
         extendsConcreteAbstract.getDetails();
+        short s = (short)Integer.MAX_VALUE;
+        System.out.println(s);
     }
 }
