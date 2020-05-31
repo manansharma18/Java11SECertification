@@ -4,7 +4,7 @@ public class FinalInstanceClass {
     private int b;
 
     public FinalInstanceClass(int a,int b) {
-
+        //this(b);
         this.a = a;
 
     }

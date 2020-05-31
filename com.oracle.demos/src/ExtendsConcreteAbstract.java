@@ -1,5 +1,7 @@
 public abstract class ExtendsConcreteAbstract extends ConcreteAbstract {
     public ExtendsConcreteAbstract() {
+        super();
+        System.out.println("ExtendsConcreteAbstract");
         concrete();
     }
 

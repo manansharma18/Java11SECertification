@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class ChildPolymorphism extends Polymorphism {
 
@@ -12,13 +11,17 @@ public class ChildPolymorphism extends Polymorphism {
         System.out.println("Child int is " +a);
     }
 
-    public List<String> genericOverride(){
+    public ArrayList<String> genericOverride(){
         return new ArrayList<String>();
     }
 
     public Integer m2(){int a =5; return a;}
 
-    public ArrayList<String> genericOverrideWithParameters(List<String> list)
+    public Integer m2(int a){return a;}
+
+    public void m2(String b){return;}
+
+    public ArrayList<String> genericOverrideWithParameters(ArrayList<String> list)
     {
         return new ArrayList<String>();
     }
@@ -39,7 +42,7 @@ public class ChildPolymorphism extends Polymorphism {
         System.out.println(childPolymorphism.a);
         System.out.println(polymorphism.b);
         System.out.println(childPolymorphism.b);
-        System.out.println(childPolymorphism.genericOverrideWithParameters(new ArrayList<>()));
+        System.out.println(childPolymorphism.genericOverrideWithParameters(new ArrayList<String>()));
         System.out.println(polymorphism.genericOverrideWithParameters(new ArrayList<>()));
 
     }

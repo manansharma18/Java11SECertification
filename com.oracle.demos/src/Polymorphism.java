@@ -10,11 +10,12 @@ public class Polymorphism {
     public void m1(int a){
         System.out.println("int is " +a);
     }
-    public List<String> genericOverrideWithParameters(List<String> list)
+    public Integer m2(){int a =5; return a;}
+    public List<String> genericOverrideWithParameters(List<Object> list)
     {
         return new ArrayList<String>();
     }
-    public Iterable<String> genericOverride(){
+    public ArrayList<String> genericOverride(){
         return new ArrayList<String>(10);
     }
 }
