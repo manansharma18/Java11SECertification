@@ -8,6 +8,7 @@ public class PredicateOverride implements Overriden<Integer> {
         PredicateOverride predicateOverride = new PredicateOverride();
         System.out.println(predicateOverride.test(new Integer(1)));
         predicateOverride.lambdaMethod(5,"Hello");
+        predicateOverride.curlyBraces("Manan","Man");
     }
 
     public void lambdaMethod(int a,String b){
@@ -23,5 +24,21 @@ public class PredicateOverride implements Overriden<Integer> {
         System.out.println(integerPredicate.test(14));
         System.out.println(stringPredicate.test(" "));
 
+    }
+
+    public void curlyBraces(final String a,final String b){
+        System.out.println();
+        LocalPredicate<String> stringPredicate = (aa,bb)-> {return a.startsWith(b);};
+        LocalPredicate<String> stringPredicate1 = (aa,bb)-> {
+            String c = "Sharma";
+            String d = "Waterloo";
+            return a.startsWith(b);
+        };
+        String aa= "";
+        String c= "";//Can use lambda variables outside lambda
+        System.out.println(stringPredicate.test(a,b));
+    }
+    interface LocalPredicate<T> {
+        boolean test(T t,T t1);
     }
 }
