@@ -2,6 +2,7 @@ package lambda;
 
 import java.util.Random;
 import java.util.function.Consumer;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class PractiseLambda {
@@ -14,7 +15,9 @@ public class PractiseLambda {
         System.out.println(lambdaInterface.multiplyByTwo(5));
         System.out.println(lambdaInterface1.multiplyByTwo(5));
         Supplier<Integer> supplier = () ->random.nextInt(1000);
-        Consumer<String> stringConsumer = (String a) -> System.out.println(a.toUpperCase());
+        Consumer<String> stringConsumer =  a -> System.out.println(a.toUpperCase());
+        Supplier s = ()->5; //non generic type
+        Consumer c = (var x) -> x.toString();// x is object
         stringConsumer.accept("Dummies");
         for (int i =0;i<5;i++) System.out.println(supplier.get());
         MathsOperations addition = (int a , int b) -> a+b;
