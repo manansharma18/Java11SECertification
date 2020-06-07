@@ -63,7 +63,6 @@ public class ClimbingTheLeaderBoard {
 
             System.out.print(result[i]);
 
-
         }
         System.out.println();
         for(int i = 0; i<result.length;i++){
