@@ -1,6 +1,7 @@
 package lambda;
 
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class PredicateOverride implements Overriden<Integer> {
 
@@ -37,6 +38,9 @@ public class PredicateOverride implements Overriden<Integer> {
         String aa= "";
         String c= "";//Can use lambda variables outside lambda
         System.out.println(stringPredicate.test(a,b));
+        Supplier<Integer> supplier =() -> {
+            System.out.println("hey");
+            return 6;};
     }
     interface LocalPredicate<T> {
         boolean test(T t,T t1);
