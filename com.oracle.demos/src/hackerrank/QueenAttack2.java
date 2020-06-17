@@ -2,6 +2,7 @@ package hackerrank;
 
 public class QueenAttack2 {
     public static void main(String[] args) {
+        System.out.println(queensAttack(5,3,4,3,new int[][]{{5, 5}, {4, 2}, {2 ,3}}));
    }
 
     static int queensAttack(int n, int k, int r_q, int c_q, int[][] obstacles) {
@@ -9,7 +10,7 @@ public class QueenAttack2 {
                 squaresMovedLeftDiagonalUp=0,squaresMovedLeftDiagonalDown=0,
                 squaresMovedRightDiagonalUp=0,squaresMovedRightDiagonalDown=0,totalSquaresMoved =0;
         int currentColumn = c_q;
-        OUTER: for (int row = r_q;row<=n;row++){
+        OUTER: for (int row = r_q+1;row<=n;row++){
             INNER:  for (int [] x : obstacles){
                 int xx=0;
                 INNERMOST: for(int y :x){
@@ -25,7 +26,7 @@ public class QueenAttack2 {
             squaresMovedUp++;
         }
 
-        OUTER: for (int row = r_q;row>=1;row--){
+        OUTER: for (int row = r_q-1;row>=1;row--){
             INNER:  for (int [] x : obstacles){
                 int xx=0;
                 INNERMOST: for(int y :x){
