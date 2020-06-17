@@ -9,3 +9,4 @@ public Integer m (String s){return 2;}
 class Animals{
     public Number m(CharSequence cs){return 1;}
 }
+
