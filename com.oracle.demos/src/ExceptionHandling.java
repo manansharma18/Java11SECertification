@@ -29,6 +29,7 @@ public class ExceptionHandling {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        catch (Errors | Exception e){}
     }
 
 }
