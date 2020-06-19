@@ -1,5 +1,5 @@
 package first.exam;
-// Throws numm pointer exception
+// Throws null pointer exception
 
 public class Shark {
 
