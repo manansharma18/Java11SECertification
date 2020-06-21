@@ -2,6 +2,7 @@
 interface HasExoskeleton {
     double size = 2.0f;
     int getNumberOfSections();
+   
 }
 abstract class Insect implements HasExoskeleton {
     abstract int getNumberOfLegs();

@@ -19,6 +19,16 @@ public class SwitchCaseRelated {
 
             default: case"A"+"Z":return;
 
+            case "A":
+            case "B":
+                System.out.println("n");
+
+        }
+        int a = 5;
+        final short b = 8;
+
+        switch (a){
+            case b:return;
         }
     }
 }
