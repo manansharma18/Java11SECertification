@@ -14,5 +14,11 @@ public class StaticAndVar {
         int j = staticAndVar.i+staticAndVar1.j;
         System.out.format("%d +%d = %d",staticAndVar.i,staticAndVar1.j,
                 staticAndVar.i+staticAndVar1.j);
+        int i = 5;
+        System.out.println(new StaticAndVar().localMain(j,i));
+    }
+    int localMain(int j ,int i){
+        int a = i+j;
+        return a;
     }
 }
