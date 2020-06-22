@@ -5,6 +5,9 @@ class Penguin {
     public void printInfo() {
         System.out.println(getHeight());
     }
+    public final void help(){
+        System.out.println("help");
+    }
 }
 public class CrestedPenguin extends Penguin {
     public static int getHeight() {
@@ -22,5 +25,11 @@ public class CrestedPenguin extends Penguin {
         p.printInfo();
             System.out.println(Penguin.getHeight());
             System.out.println( new CrestedPenguin().getHeight());
+         p.help();
+        Penguin p1 = new CrestedPenguin();
+        ((CrestedPenguin)p1).exclusive();
+
     }
+
+    public void exclusive(){}
 }
