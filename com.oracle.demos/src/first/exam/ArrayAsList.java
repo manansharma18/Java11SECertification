@@ -17,5 +17,12 @@ public class ArrayAsList {
         System.out.println(stringArrayList.add("sss"));
         //System.out.println(listString.add("asas"));
 
+        var list = new ArrayList<String>();
+        list.add("hi");
+        //list.add(String.valueOf(new Integer(5)));
+        int[] duplicateArray = intArray;
+        int[] duplicateArray1 = {4,5,6,7,8};
+        System.out.println("0----->{}"+duplicateArray.equals(intArray));
+        System.out.println("0----->{}"+duplicateArray1.equals(intArray));
     }
 }
