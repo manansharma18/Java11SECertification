@@ -2,6 +2,7 @@ package first.exam;
 
 public class InterfaceImplementation implements A2,B2{
     public void d(){
+        int a;
         System.out.println("lol");
         A2.super.d();
         B2.super.d();
@@ -31,6 +32,7 @@ interface A1{
 }
 
 interface A2 extends A1{
+    int a=10;
 }
 
 interface B2{
