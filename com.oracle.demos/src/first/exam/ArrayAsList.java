@@ -22,7 +22,10 @@ public class ArrayAsList {
         //list.add(String.valueOf(new Integer(5)));
         int[] duplicateArray = intArray;
         int[] duplicateArray1 = {4,5,6,7,8};
-        System.out.println("0----->{}"+duplicateArray.equals(intArray));
-        System.out.println("0----->{}"+duplicateArray1.equals(intArray));
+        System.out.println(duplicateArray.equals(intArray));
+        System.out.println(duplicateArray1.equals(intArray));
+        int[][] twoD = new int[10][5];
+        int [][] twoDD;
+
     }
 }
