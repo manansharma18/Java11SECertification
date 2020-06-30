@@ -4,9 +4,15 @@ import java.io.IOException;
 
 public class HandleDeclare {
 
+    //static var count = 0;
     public static void main(String[] args) {
         //eat();
+
         eatUnchecked();
+        float a= 5>7? 2:3.0f;
+        short aa =6;
+        int x = 7;
+        float b = 2>10? (aa =6):( x = 7);
     }
 
     static void eat() throws IOException {
@@ -27,5 +33,14 @@ public class HandleDeclare {
 
         throw new RuntimeException();
     }
+    static void eatUncheckedChecked() throws ArithmeticException {
 
+        try{
+            new IOException();
+        }catch (Exception e){
+            throw e;
+        }
+
+
+    }
 }
