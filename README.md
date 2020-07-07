@@ -5,3 +5,4 @@ I created this repository while I was preparing for Oracle Certified Professiona
 1. Know the principle of work and the return value of new Arrays.mismatch and Arrays.compare methods.
 2. Know that List.of() method returns immutable List and throws UnsupportedOperationException in runtime if you try to change it.
 3.“var” Type Name. 
+
